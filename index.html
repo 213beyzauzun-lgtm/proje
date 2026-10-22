@@ -105,9 +105,9 @@
 
     // 'yerler.json' dosyasını okuyan kısım bu
     // .then amacı sirasıyla yapması için burda aiden yardim aldim
+    // 'yerler.json' dosyasını okuyan kısım bu
     fetch('yerler.json')
       .then(response => {
-        // bilgi gelmezse diye
         if (!response.ok) {
           throw new Error("JSON dosyası okunamadı: " + response.statusText);
         }
@@ -115,41 +115,72 @@
       })
       .then(veriler => {
         veriler.forEach(yer => {
-          // Renk eşlemesi yerlerdeki jsondan gelen bilgilere göre harita üzerinde ne renk olacağına karar veriyor
+          
+          // --- O ANKİ SAATE GÖRE CANLI RENKLENDİRME ---
           let renkKodu = '#ff851b'; // Varsayılan turuncu
-          if (yer.guvenlik_rengi === 'yesil') {
-            renkKodu = '#28a745'; // Güvenli yeşil
-          } else if (yer.guvenlik_rengi === 'kirmizi') {
-            renkKodu = '#dc3545'; // Kapalı kırmızı
-          }
 
-          // harita üzerinede renkli daireyi bu çiziyor leaflet kütüphanesini kullaniyo
+          // 1. Cihazın o anki saatini al (Örn: 14:30 -> 14.5)
+          const suAn = new Date();
+          const suAnSaat = suAn.getHours() + (suAn.getMinutes() / 60);
+
+          // 2. Eğer dükkanın saati biliniyorsa canlı hesapla:
+          if (yer.saat_durumu === "Doğrulanmış Bilgi" && yer.acilis_saatleri) {
+            let saatMetni = yer.acilis_saatleri.toLowerCase();
+            
+            if (saatMetni.includes("24/7") || saatMetni.includes("24 saat")) {
+              renkKodu = '#28a745'; // 24 saat açıksa her zaman yeşil
+            } else {
+              const saatSablonu = /(\d{2}):(\d{2})\s*-\s*(\d{2}):(\d{2})/;
+              const eslesme = saatMetni.match(saatSablonu);
+
+              if (eslesme) {
+                let acilis = parseInt(eslesme[1]) + (parseInt(eslesme[2]) / 60);
+                let kapanis = parseInt(eslesme[3]) + (parseInt(eslesme[4]) / 60);
+                let suAnAcik = false;
+                
+                if (kapanis < acilis) { // Geceyi geçen mesai
+                  suAnAcik = (suAnSaat >= acilis || suAnSaat <= kapanis);
+                } else { // Normal mesai
+                  suAnAcik = (suAnSaat >= acilis && suAnSaat <= kapanis);
+                }
+                
+                // O an açıksa yeşil, kapalıysa kırmızı
+                renkKodu = suAnAcik ? '#28a745' : '#dc3545';
+              }
+            }
+          } 
+          // 3. Saati hiç girilmemişse, yedek olarak eski sisteme (Python'a) bak
+          else if (yer.guvenlik_rengi === 'kirmizi') {
+            renkKodu = '#dc3545'; 
+          }
+          else if (yer.guvenlik_rengi === 'yesil') {
+            renkKodu = '#28a745';
+          }
+          // --- CANLI RENKLENDİRME BİTTİ ---
+
+          // Harita üzerindeki renkli daireyi bu çizer
           const nokta = L.circleMarker([yer.lat, yer.lon], {
-            radius: 12, //daha kolay basam diye büyüttüm bunu    
-            color: renkKodu,
+            radius: 12,
+            color: '#ffffff', // Dış çizgi beyaz olsun ki belirginleşsin
             fillColor: renkKodu,
-            fillOpacity: 0.8,
-            weight: 1
+            fillOpacity: 0.85,
+            weight: 2
           }).addTo(map);
 
-          // Noktaya basıldığında harita boşluğuna tıklanmış gibi algılanmasın diyeymiş ai önerdi
           nokta.on('click', function(e) {
             L.DomEvent.stopPropagation(e);
           });
 
-          // yere tikladığımızda açılan bilgi penceresi
-// Eğer telefon veya web sitesi varsa HTML koduna ekle, yoksa boş kalsın
+          // Eğer telefon veya web sitesi varsa HTML koduna ekle, yoksa boş kalsın
           let ekBilgiler = "";
           if (yer.telefon) {
-            // href="tel:..." kısmı telefondan basıldığında direkt arama ekranını açar
             ekBilgiler += `<br><span style="color: #666;">Tel:</span> <a href="tel:${yer.telefon}" style="text-decoration: none; color: #007bff; font-weight: bold;">${yer.telefon}</a>`;
           }
           if (yer.websitesi) {
-            // target="_blank" yeni sekmede açılmasını sağlar
             ekBilgiler += `<br><span style="color: #666;">Site:</span> <a href="${yer.websitesi}" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">Ziyaret Et</a>`;
           }
 
-          // yere tikladığımızda açılan bilgi penceresi
+          // Yere tıklandığında açılan bilgi penceresi
           const mekan = `
             <div style="font-size: 13px; min-width: 170px;">
               <strong style="font-size: 14px;">${yer.isim}</strong><br>
@@ -162,7 +193,6 @@
               </button>
             </div>
           `;
-          // mekanın açılmasını sağlayan
           nokta.bindPopup(mekan);
         });
         console.log(`Toplam ${veriler.length} mekan renklendirilerek haritaya eklendi.`);
@@ -170,6 +200,3 @@
       .catch(hata => {
         console.error("Veri yüklenirken hata oluştu:", hata);
       });
-  </script>
-</body>
-</html>
