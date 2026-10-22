@@ -13,7 +13,7 @@
   {
     "id": 3708704279,
     "isim": "Pamukkale Belediyesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Belediye / Kamu Binası",
     "lat": 37.7631353,
     "lon": 29.1021893,
     "acilis_saatleri": "Belirtilmemiş",
@@ -46,7 +46,7 @@
   {
     "id": 3708710362,
     "isim": "Hasan Tekin Ada Anadolu Lisesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.745441,
     "lon": 29.1044442,
     "acilis_saatleri": "Belirtilmemiş",
@@ -57,7 +57,7 @@
   {
     "id": 3708710363,
     "isim": "Gülay Kaynak Sarıkaya Teknik ve Endüstri Meslek Lisesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7452731,
     "lon": 29.1005914,
     "acilis_saatleri": "Belirtilmemiş",
@@ -134,7 +134,7 @@
   {
     "id": 3709743791,
     "isim": "Ahmet Çalışkan Anaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7441391,
     "lon": 29.1076838,
     "acilis_saatleri": "Belirtilmemiş",
@@ -178,7 +178,7 @@
   {
     "id": 3709776769,
     "isim": "Pamukkale Üniversitesi Denizli Teknik Bilimler Meslek Yüksekokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Üniversite / Kampüs",
     "lat": 37.7490937,
     "lon": 29.0908033,
     "acilis_saatleri": "Belirtilmemiş",
@@ -288,7 +288,7 @@
   {
     "id": 3709776784,
     "isim": "Fahri Akçakoca Anaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Anaokulu / Kreş",
     "lat": 37.7456664,
     "lon": 29.0847408,
     "acilis_saatleri": "Belirtilmemiş",
@@ -299,7 +299,7 @@
   {
     "id": 3709776791,
     "isim": "Özel Çamlık Koleji",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7419353,
     "lon": 29.0868332,
     "acilis_saatleri": "Belirtilmemiş",
@@ -453,7 +453,7 @@
   {
     "id": 3715895031,
     "isim": "PAÜ Müzik ve Sahne Sanatları Fakültesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Üniversite / Kampüs",
     "lat": 37.7399124,
     "lon": 29.0997467,
     "acilis_saatleri": "Belirtilmemiş",
@@ -475,7 +475,7 @@
   {
     "id": 3721884405,
     "isim": "MEB Nezihe - Derya Baltalı Bilim ve Sanat Merkezi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7443815,
     "lon": 29.0978037,
     "acilis_saatleri": "Belirtilmemiş",
@@ -486,7 +486,7 @@
   {
     "id": 3721884406,
     "isim": "MEB Atatürk Mesleki ve Teknik Anadolu Lisesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7442482,
     "lon": 29.09917,
     "acilis_saatleri": "Belirtilmemiş",
@@ -530,7 +530,7 @@
   {
     "id": 3733510917,
     "isim": "PAÜ Tıp Fakültesi Adli Tıp ABD.",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Kolej / Lise",
     "lat": 37.7398471,
     "lon": 29.1065653,
     "acilis_saatleri": "Belirtilmemiş",
@@ -2565,7 +2565,7 @@
   {
     "id": 4030790319,
     "isim": "Pamukkale Üniversitesi İleri Araştırmalar Laboratuarı",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7382255,
     "lon": 29.0990304,
     "acilis_saatleri": "Belirtilmemiş",
@@ -2576,7 +2576,7 @@
   {
     "id": 4030790542,
     "isim": "Pamukkale Üniversitesi Fen Edebiyat Fakültesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7382929,
     "lon": 29.1004983,
     "acilis_saatleri": "Belirtilmemiş",
@@ -2587,7 +2587,7 @@
   {
     "id": 4030791078,
     "isim": "PAÜ İlahiyat Fakültesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7421379,
     "lon": 29.1015972,
     "acilis_saatleri": "Belirtilmemiş",
@@ -3643,7 +3643,7 @@
   {
     "id": 5076782102,
     "isim": "İktisadi Ve İdari Bilimler Fakültesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7378008,
     "lon": 29.107353,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7548,7 +7548,7 @@
   {
     "id": 13288560873,
     "isim": "Denizli 100. Yıl Kütüphanesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Kütüphane / Çalışma Salonu",
     "lat": 37.7720748,
     "lon": 29.0896577,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7713,7 +7713,7 @@
   {
     "id": 14303517302,
     "isim": "Kayhan kapalı pazar yeri",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Pazar Yeri / Açık Pazar",
     "lat": 37.7513805,
     "lon": 29.1133999,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7724,7 +7724,7 @@
   {
     "id": 136318499,
     "isim": "Pamukkale Üniversitesi Kınıklı Yerleşkesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Üniversite / Kampüs",
     "lat": 37.7391596,
     "lon": 29.1012679,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7735,7 +7735,7 @@
   {
     "id": 158597152,
     "isim": "Delikliçınar Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7727805,
     "lon": 29.0877882,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7746,7 +7746,7 @@
   {
     "id": 158597294,
     "isim": "Denizli Büyükşehir Belediyesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Belediye / Kamu Binası",
     "lat": 37.7735327,
     "lon": 29.0864498,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7757,7 +7757,7 @@
   {
     "id": 164881520,
     "isim": "Denizli Lisesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7675641,
     "lon": 29.0829148,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7768,7 +7768,7 @@
   {
     "id": 304766403,
     "isim": "Çarkıt Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7452758,
     "lon": 29.1150551,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7779,7 +7779,7 @@
   {
     "id": 304766404,
     "isim": "Asmalı Evler Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.748102,
     "lon": 29.1096528,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7790,7 +7790,7 @@
   {
     "id": 304766405,
     "isim": "Göker Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7495747,
     "lon": 29.1138062,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7801,7 +7801,7 @@
   {
     "id": 304766407,
     "isim": "Kayhan Keskin Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7543609,
     "lon": 29.1132253,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7812,7 +7812,7 @@
   {
     "id": 304766408,
     "isim": "Ayanlık Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7562688,
     "lon": 29.1078852,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7823,7 +7823,7 @@
   {
     "id": 304766409,
     "isim": "Karaoğlanoğlu Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7628501,
     "lon": 29.1048869,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7834,7 +7834,7 @@
   {
     "id": 304766410,
     "isim": "Fatih Merkez Efendi Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7654526,
     "lon": 29.103776,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7845,7 +7845,7 @@
   {
     "id": 304766411,
     "isim": "Nur Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7696479,
     "lon": 29.102122,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7856,7 +7856,7 @@
   {
     "id": 304780934,
     "isim": "Fetih Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7425985,
     "lon": 29.0861151,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7867,7 +7867,7 @@
   {
     "id": 304780937,
     "isim": "Fatih Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7501326,
     "lon": 29.0877487,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7878,7 +7878,7 @@
   {
     "id": 304780938,
     "isim": "Yayla Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7574862,
     "lon": 29.0858001,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7889,7 +7889,7 @@
   {
     "id": 304780939,
     "isim": "Yenimahalle Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7556746,
     "lon": 29.094366,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7900,7 +7900,7 @@
   {
     "id": 304780940,
     "isim": "Eyyüp Ensari Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7578742,
     "lon": 29.0903243,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7911,7 +7911,7 @@
   {
     "id": 304780941,
     "isim": "Konyalıoğlu Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7607494,
     "lon": 29.0861436,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7922,7 +7922,7 @@
   {
     "id": 304780942,
     "isim": "Hacı Hasan Feyzi Efendi Kuşpınar Cami Şerifi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7641816,
     "lon": 29.0823791,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7933,7 +7933,7 @@
   {
     "id": 304780949,
     "isim": "Musa Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7719094,
     "lon": 29.0815167,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7944,7 +7944,7 @@
   {
     "id": 304780950,
     "isim": "Değirmenönü Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7694479,
     "lon": 29.0834161,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7955,7 +7955,7 @@
   {
     "id": 304780951,
     "isim": "Darıverenli Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7683458,
     "lon": 29.0806098,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7966,7 +7966,7 @@
   {
     "id": 304784387,
     "isim": "Çaybaşı Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7734816,
     "lon": 29.0846588,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7977,7 +7977,7 @@
   {
     "id": 304784389,
     "isim": "Kurbağalık Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7720185,
     "lon": 29.0921489,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7988,7 +7988,7 @@
   {
     "id": 304784390,
     "isim": "Istiklal Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7664432,
     "lon": 29.0950564,
     "acilis_saatleri": "Belirtilmemiş",
@@ -7999,7 +7999,7 @@
   {
     "id": 304784391,
     "isim": "Seyit Emir Sultan Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7628065,
     "lon": 29.0964813,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8010,7 +8010,7 @@
   {
     "id": 304784392,
     "isim": "Pekmezci Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7676204,
     "lon": 29.0913262,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8021,7 +8021,7 @@
   {
     "id": 304784393,
     "isim": "Pınarbaşı Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.76598,
     "lon": 29.0908128,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8043,7 +8043,7 @@
   {
     "id": 305490640,
     "isim": "Pamukkale Üniversitesi Denizli Meslek Yüksekokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Üniversite / Kampüs",
     "lat": 37.7489203,
     "lon": 29.0916963,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8054,7 +8054,7 @@
   {
     "id": 305491026,
     "isim": "Doğan Demircioğlu Emsan İlköğretim Okulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7526921,
     "lon": 29.0874953,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8076,7 +8076,7 @@
   {
     "id": 366994283,
     "isim": "Yaşar Kımıl Fen Lisesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7459009,
     "lon": 29.1017107,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8087,7 +8087,7 @@
   {
     "id": 366999848,
     "isim": "Fahri Akçakoca Anaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Anaokulu / Kreş",
     "lat": 37.7453302,
     "lon": 29.0848658,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8098,7 +8098,7 @@
   {
     "id": 368344519,
     "isim": "Kınıklı Basma Boya İlkokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7451116,
     "lon": 29.0920967,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8109,7 +8109,7 @@
   {
     "id": 371180845,
     "isim": "Saadet Erikoğlu İlkokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7635149,
     "lon": 29.086254,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8120,7 +8120,7 @@
   {
     "id": 372696994,
     "isim": "Lüfti Ege İlkokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7585666,
     "lon": 29.0886947,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8131,7 +8131,7 @@
   {
     "id": 372701775,
     "isim": "Namık Kemal Ortaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7681904,
     "lon": 29.0801166,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8142,7 +8142,7 @@
   {
     "id": 372702445,
     "isim": "Şenay Öztürk Anaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7572537,
     "lon": 29.087263,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8153,7 +8153,7 @@
   {
     "id": 372703410,
     "isim": "100. Yıl Mehmetçik İlkokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7604851,
     "lon": 29.0820879,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8164,7 +8164,7 @@
   {
     "id": 372706609,
     "isim": "Kredi Yurtlar Kurumu PAÜ Müdürlüğü",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Üniversite / Kampüs",
     "lat": 37.7420717,
     "lon": 29.0984676,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8186,7 +8186,7 @@
   {
     "id": 373296572,
     "isim": "Evliya Çelebi Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7496428,
     "lon": 29.0985573,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8197,7 +8197,7 @@
   {
     "id": 373769139,
     "isim": "Atalar Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7695224,
     "lon": 29.088712,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8208,7 +8208,7 @@
   {
     "id": 373815974,
     "isim": "Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7664484,
     "lon": 29.1102182,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8219,7 +8219,7 @@
   {
     "id": 373908755,
     "isim": "Mesirelik Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.760263,
     "lon": 29.1007074,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8241,7 +8241,7 @@
   {
     "id": 373912139,
     "isim": "Pazarbaşı Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7724131,
     "lon": 29.0989965,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8252,7 +8252,7 @@
   {
     "id": 373927851,
     "isim": "Özgül Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7604054,
     "lon": 29.1042852,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8274,7 +8274,7 @@
   {
     "id": 374079946,
     "isim": "Allı Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7688147,
     "lon": 29.0935908,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8285,7 +8285,7 @@
   {
     "id": 374188180,
     "isim": "Kezban-Ali Çınar İmam Hatip Ortaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7499325,
     "lon": 29.1052111,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8296,7 +8296,7 @@
   {
     "id": 374190723,
     "isim": "Hasan Tekin Ada Anadolu Lisesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7453632,
     "lon": 29.1041695,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8307,7 +8307,7 @@
   {
     "id": 375823561,
     "isim": "Semt Pazarı",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Pazar Yeri / Açık Pazar",
     "lat": 37.7622195,
     "lon": 29.0840488,
     "acilis_saatleri": "We",
@@ -8318,7 +8318,7 @@
   {
     "id": 376065709,
     "isim": "İstiklal Fitnat - Ahmet Engin İlkokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.763954,
     "lon": 29.0950139,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8329,7 +8329,7 @@
   {
     "id": 376065710,
     "isim": "Merkez Ortaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7674898,
     "lon": 29.0964781,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8340,7 +8340,7 @@
   {
     "id": 376260669,
     "isim": "Müftü Ahmet Hulusi Efendi Camii ve Külliyesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7429661,
     "lon": 29.101214,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8351,7 +8351,7 @@
   {
     "id": 376260675,
     "isim": "PAÜ Anaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7427378,
     "lon": 29.1071278,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8362,7 +8362,7 @@
   {
     "id": 376261297,
     "isim": "Polis Amca Özel Eğitim Uygulama Merkezi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7450891,
     "lon": 29.1026713,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8373,7 +8373,7 @@
   {
     "id": 377650891,
     "isim": "Atatürk Ortaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7658801,
     "lon": 29.0883949,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8406,7 +8406,7 @@
   {
     "id": 416284064,
     "isim": "Hürriyet Ortaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7730229,
     "lon": 29.0894162,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8428,7 +8428,7 @@
   {
     "id": 485234718,
     "isim": "Çarşamba Pazarı Alanı",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Pazar Yeri / Açık Pazar",
     "lat": 37.754196,
     "lon": 29.0930898,
     "acilis_saatleri": "Sa 09:00-18:00",
@@ -8439,7 +8439,7 @@
   {
     "id": 519110560,
     "isim": "Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7444099,
     "lon": 29.106311,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8450,7 +8450,7 @@
   {
     "id": 519110597,
     "isim": "Siteler Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7491466,
     "lon": 29.0946057,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8483,7 +8483,7 @@
   {
     "id": 519118303,
     "isim": "Hacı Ahmet Baki Yağcı Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7730096,
     "lon": 29.0897876,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8494,7 +8494,7 @@
   {
     "id": 519118309,
     "isim": "İncilipınar Kapalı Pazaryeri",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Pazar Yeri / Açık Pazar",
     "lat": 37.7556094,
     "lon": 29.0993093,
     "acilis_saatleri": "Tu 09:00-18:00",
@@ -8505,7 +8505,7 @@
   {
     "id": 519118311,
     "isim": "Kınıklı Merkez Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7452577,
     "lon": 29.0939872,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8527,7 +8527,7 @@
   {
     "id": 519731448,
     "isim": "Pamukkale Eğitim Vakfı Okulları",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7578068,
     "lon": 29.0937766,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8538,7 +8538,7 @@
   {
     "id": 519731499,
     "isim": "Pamukkale Belediyesi",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Belediye / Kamu Binası",
     "lat": 37.7624489,
     "lon": 29.1021808,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8560,7 +8560,7 @@
   {
     "id": 520281162,
     "isim": "Kasap Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7649817,
     "lon": 29.0873833,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8571,7 +8571,7 @@
   {
     "id": 520282125,
     "isim": "İncilipınar Ortaokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7562191,
     "lon": 29.099396,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8604,7 +8604,7 @@
   {
     "id": 520355007,
     "isim": "Akpınar Cami",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7568319,
     "lon": 29.1032845,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8615,7 +8615,7 @@
   {
     "id": 520787515,
     "isim": "Kınıklı kapalı Pazaryeri",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Pazar Yeri / Açık Pazar",
     "lat": 37.7487581,
     "lon": 29.1010891,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8692,7 +8692,7 @@
   {
     "id": 992434405,
     "isim": "Pelitlibağ Mehmet Arslan Camii",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Cami / İbadethane",
     "lat": 37.7718627,
     "lon": 29.0951296,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8703,7 +8703,7 @@
   {
     "id": 1053268806,
     "isim": "Pelitlibağ Kapalı Pazaryeri",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Pazar Yeri / Açık Pazar",
     "lat": 37.77191,
     "lon": 29.0929193,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8868,7 +8868,7 @@
   {
     "id": 1354711707,
     "isim": "DNDOO",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7351277,
     "lon": 29.1151003,
     "acilis_saatleri": "Belirtilmemiş",
@@ -8890,7 +8890,7 @@
   {
     "id": 1448299822,
     "isim": "Atatürk İlkokulu",
-    "kategori": "Diğer İşletme / Dükkan",
+    "kategori": "Okul / Eğitim Kurumu",
     "lat": 37.7663763,
     "lon": 29.0891913,
     "acilis_saatleri": "Belirtilmemiş",
