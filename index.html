@@ -43,16 +43,11 @@
     .btn-rota:hover {
       background: #0056b3;
     }
-
-
-
   </style> 
 </head>
 <body>
 
   <div class="msj" id="msj">Konumunuz bulunuyor</div>
-
-
 
   <div id="map"></div>
 
@@ -105,7 +100,6 @@
 
     // 'yerler.json' dosyasını okuyan kısım bu
     // .then amacı sirasıyla yapması için burda aiden yardim aldim
-    // 'yerler.json' dosyasını okuyan kısım bu
     fetch('yerler.json')
       .then(response => {
         if (!response.ok) {
@@ -116,19 +110,19 @@
       .then(veriler => {
         veriler.forEach(yer => {
           
-          // --- O ANKİ SAATE GÖRE CANLI RENKLENDİRME ---
-          let renkKodu = '#ff851b'; // Varsayılan turuncu
+          // --- YENİ MANTIK: SADECE AÇIKSA YEŞİL, KAPALIYSA (VEYA BİLGİ YOKSA) KIRMIZI ---
+          // Varsayılan renk her zaman Kırmızıdır (Risk almamak için)
+          let renkKodu = '#dc3545'; 
 
-          // 1. Cihazın o anki saatini al (Örn: 14:30 -> 14.5)
+          // Cihazın o anki saatini al (Örn: 14:30 -> 14.5)
           const suAn = new Date();
           const suAnSaat = suAn.getHours() + (suAn.getMinutes() / 60);
 
-          // 2. Eğer dükkanın saati biliniyorsa canlı hesapla:
-          if (yer.saat_durumu === "Doğrulanmış Bilgi" && yer.acilis_saatleri) {
+          if (yer.saat_durumu === "Bilgi Girilmiş" && yer.acilis_saatleri) {
             let saatMetni = yer.acilis_saatleri.toLowerCase();
             
             if (saatMetni.includes("24/7") || saatMetni.includes("24 saat")) {
-              renkKodu = '#28a745'; // 24 saat açıksa her zaman yeşil
+              renkKodu = '#28a745'; // 24 saat açıksa kesin yeşil
             } else {
               const saatSablonu = /(\d{2}):(\d{2})\s*-\s*(\d{2}):(\d{2})/;
               const eslesme = saatMetni.match(saatSablonu);
@@ -149,14 +143,7 @@
               }
             }
           } 
-          // 3. Saati hiç girilmemişse, yedek olarak eski sisteme (Python'a) bak
-          else if (yer.guvenlik_rengi === 'kirmizi') {
-            renkKodu = '#dc3545'; 
-          }
-          else if (yer.guvenlik_rengi === 'yesil') {
-            renkKodu = '#28a745';
-          }
-          // --- CANLI RENKLENDİRME BİTTİ ---
+          // -----------------------------------------------------------
 
           // Harita üzerindeki renkli daireyi bu çizer
           const nokta = L.circleMarker([yer.lat, yer.lon], {
@@ -195,7 +182,6 @@
           `;
           nokta.bindPopup(mekan);
         });
-        console.log(`Toplam ${veriler.length} mekan renklendirilerek haritaya eklendi.`);
       })
       .catch(hata => {
         console.error("Veri yüklenirken hata oluştu:", hata);
