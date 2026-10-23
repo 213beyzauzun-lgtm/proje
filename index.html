@@ -110,13 +110,14 @@
       .then(veriler => {
         veriler.forEach(yer => {
           
-          // --- YENİ MANTIK: SADECE AÇIKSA YEŞİL, KAPALIYSA (VEYA BİLGİ YOKSA) KIRMIZI ---
+          // O an açıksa yeşil kapalıysa kırmızı ---
           // Varsayılan renk her zaman Kırmızıdır (Risk almamak için)
           let renkKodu = '#dc3545'; 
 
           // Cihazın o anki saatini al (Örn: 14:30 -> 14.5)
           const suAn = new Date();
           const suAnSaat = suAn.getHours() + (suAn.getMinutes() / 60);
+        //   zaman değişkeni 
 
           if (yer.saat_durumu === "Bilgi Girilmiş" && yer.acilis_saatleri) {
             let saatMetni = yer.acilis_saatleri.toLowerCase();
@@ -126,6 +127,7 @@
             } else {
               const saatSablonu = /(\d{2}):(\d{2})\s*-\s*(\d{2}):(\d{2})/;
               const eslesme = saatMetni.match(saatSablonu);
+            //   saatleri karşilaştirabileceğimiz bir hale çeviriyor
 
               if (eslesme) {
                 let acilis = parseInt(eslesme[1]) + (parseInt(eslesme[2]) / 60);
@@ -137,6 +139,8 @@
                 } else { // Normal mesai
                   suAnAcik = (suAnSaat >= acilis && suAnSaat <= kapanis);
                 }
+
+                // açik mi kapali mi
                 
                 // O an açıksa yeşil, kapalıysa kırmızı
                 renkKodu = suAnAcik ? '#28a745' : '#dc3545';
@@ -148,7 +152,7 @@
           // Harita üzerindeki renkli daireyi bu çizer
           const nokta = L.circleMarker([yer.lat, yer.lon], {
             radius: 12,
-            color: '#ffffff', // Dış çizgi beyaz olsun ki belirginleşsin
+            color: '#ffffff', // Dış çizgi beyaz belirgin olsun diye
             fillColor: renkKodu,
             fillOpacity: 0.85,
             weight: 2
